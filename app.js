@@ -3,7 +3,7 @@ var path = require("path");
 var express = require("express");
 var logger = require("morgan");
 var bodyParser = require("body-parser");
-var PORT = process.env.PORT || 3000;	
+var PORT = process.env.PORT;	
 
 var app = express();
 
